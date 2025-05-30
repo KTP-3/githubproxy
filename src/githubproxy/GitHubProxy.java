@@ -9,7 +9,7 @@ import org.eclipse.jetty.server.Server;
 public class GitHubProxy {
 
 	public static void main(String[] args) throws Exception {
-		Server server = new Server(8080);
+		Server server = new Server(9090);
 		
 		Forward handler = new ProxyHandler.Forward() {
 			@Override
